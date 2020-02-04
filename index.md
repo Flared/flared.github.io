@@ -1,6 +1,5 @@
 ---
-# Feel free to add content and custom Front Matter to this file.
-# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-
-layout: home
+layout: default
+title: Open Source at Flare Systems
+description: People at Flare Systems benefits from open-source and wish to give back to the community. These are the projects we contribute the most.
 ---
