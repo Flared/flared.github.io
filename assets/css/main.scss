@@ -1,0 +1,26 @@
+---
+---
+
+@charset "utf-8";
+
+$family-sans-serif: 'Open Sans', sans-serif;
+$yellow: #fdcd2f;
+$blue: #193560;
+$grey-darker: #101010;
+
+$primary: $blue;
+$secondary: $yellow;
+$text-strong: $primary;
+$title-family: 'Raleway', sans-serif;
+$title-size: 3em;
+
+@import "bulma/bulma.sass";
+
+
+.hero {
+  background-image: url("https://flare.systems/wp-content/uploads/2020/01/Web-1920-%E2%80%93-2.png");
+}
+
+.navbar {
+  margin-top: 25px;
+}
