@@ -1,0 +1,35 @@
+- name: Icyque
+  description: ICQ WIM protocol for libpurple.
+  url:
+    name: github/icyque
+    href: https://github.com/EionRobb/icyque
+  maintainer: EionRobb
+  licence: GPL-3.0
+  language: C
+
+- name: Dramatiq
+  description:  A fast and reliable distributed task processing library for Python 3.
+  url:
+    name: github/dramatiq
+    href: https://github.com/Bogdanp/dramatiq
+  maintainer: Bogdanp
+  licence: LGPL-3.0
+  language: Python
+
+- name: SQLAlchemy-Stubs
+  description: Mypy plugin and stubs for SQLAlchemy.
+  url:
+    name: github/sqlalchemy-stubs
+    href: https://github.com/dropbox/sqlalchemy-stubs
+  maintainer: Dropbox
+  licence: Apache-2.0
+  language: Python
+
+- name: Warcio
+  description: Streaming WARC/ARC library for fast web archive IO.
+  url:
+    name: github/warcio
+    href: https://github.com/webrecorder/warcio
+  maintainer: Webrecorder Project
+  licence: Apache-2.0
+  language: Python

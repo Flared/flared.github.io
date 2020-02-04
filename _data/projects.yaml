@@ -1,0 +1,39 @@
+- name: Dramatiq-Abort
+  description: Dramatiq extension to abort messages.
+  url:
+    name: github/dramatiq-abort
+    href: https://github.com/Flared/dramatiq-abort
+  licence: LGPL-3.0
+  language: Python
+
+- name: Task Dashboard
+  description: Generic dashboard web application to monitor and manage tasks managers such as Dramatiq.
+  url:
+    name: github/task-dashboard
+    href: https://github.com/Flared/task-dashboard
+  licence: GPL-3.0
+  language: Python
+
+- name: Task Logs
+  description: Generic task logging middleware to be used with task-dashboard.
+  url:
+    name: github/task-logs
+    href: https://github.com/Flared/task-logs
+  licence: LGPL-3.0
+  language: Python
+
+- name: Python-Purple
+  description: Python bindings to libpurple.
+  url:
+    name: github/python-purple
+    href: https://github.com/Flared/python-purple
+  licence: GPL-3.0
+  language: Python
+
+- name: Huey-SQLAlchemy
+  description: Huey Storage implementation using SQLAlchemy.
+  url:
+    name: github/huey-sqlalchemy
+    href: https://github.com/Flared/huey-sqlalchemy
+  licence: LGPL-3.0
+  language: Python

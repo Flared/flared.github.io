@@ -6,14 +6,104 @@ description: People at Flare Systems benefits from open-source and wish to give 
 
 <div class="hero is-bold is-small">
   <div class="hero-body">
-    <div class="columns">
-      <div class="column is-offset-3 is-4">
-        <h1 class="title is-spaced">Open Source at Flare Systems</h1>
-        <p class="subtitle">People at Flare Systems benefits from open-source and wish to give back to the community. These are the projects we contribute the most.</p>
-      </div>
-      <div class="column">
-        <img src="https://flare.systems/wp-content/uploads/2020/01/CORPORATE-LOGO.png" alt="Flare Systems"/>
+    <div class="container is-spaced">
+      <div class="columns">
+        <div class="column is-6">
+          <h1 class="title is-spaced">Open Source at Flare Systems</h1>
+          <p class="subtitle">People at Flare Systems benefits from open-source and wish to give back to the community. These are the projects we contribute the most.</p>
+          <p>
+            <a href="https://github.com/Flared"><i class="fab fa-github"></i></a>
+          </p>
+        </div>
+        <div class="column">
+          <img src="https://flare.systems/wp-content/uploads/2020/01/CORPORATE-LOGO.png" alt="Flare Systems"/>
+        </div>
       </div>
     </div>
   </div>
 </div>
+
+<section class="section" id="our-project">
+  <div class="container">
+    <h2 class="title is-2">Our Projects</h2>
+    {% for project in site.data.projects %}
+      <div class="card is-spaced">
+        <div class="card-header">
+          <div class="card-header-title">
+            {{ project.name }}
+          </div>
+        </div>
+        <div class="card-content">
+          {{ project.description }}
+
+          <dl class="is-spaced">
+            <dt>URL</dt>
+            <dd><a href="{{ project.url.href }}">{{ project.url.name }}</a></dd>
+            <dt>Language</dt>
+            <dd>{{ project.language }}</dd>
+            <dt>Licence</dt>
+            <dd>{{ project.licence }}</dd>
+          </dl>
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+</section>
+
+<section class="section" id="our-contributions">
+  <div class="container">
+    <h2 class="title is-2">Other Projects We Love</h2>
+    <h2 class="subtitle is-5">And we contributed to!</h2>
+    {% for project in site.data.contributions %}
+      <div class="card is-spaced">
+        <div class="card-header">
+          <div class="card-header-title">
+            {{ project.name }}
+          </div>
+        </div>
+        <div class="card-content">
+          {{ project.description }}
+
+          <dl class="is-spaced">
+            <dt>URL</dt>
+            <dd><a href="{{ project.url.href }}">{{ project.url.name }}</a></dd>
+            <dt>Maintainer</dt>
+            <dd><a href="https://github.com/{{project.maintainer}}">{{ project.maintainer }}</a></dd>
+            <dt>Language</dt>
+            <dd>{{ project.language }}</dd>
+            <dt>Licence</dt>
+            <dd>{{ project.licence }}</dd>
+          </dl>
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+</section>
+
+<section class="section" id="learn-more">
+  <div class="container">
+    <h1 class="title is-2">We are Flare Systems</h1>
+
+    <p>We enable financial institutions to continuously monitor threats caused by human error and malicious actors to protect their data, financial resources, and reputation.</p>
+
+    <p>
+      <a href="https://flare.systems" class="button is-primary">Learn more...</a>
+    </p>
+  </div>
+</section>
+
+<section class="section" id="join-us">
+  <div class="container">
+    <h1 class="title is-2">Interested in our Projects?</h1>
+
+    <p>We are a team of mission-driven people who want to enable companies to protect themselves against cyber crimes and we’re damn passionate about it. We thrive on trust, operate with integrity and above all support our people so they can do their best work and be their best selves. We constantly build and break things – change is the only constant.</p>
+
+    <p>If you continuously challenge yourself to learn and grow, are driven by the impact your work has, and are as equally mission driven as we are, <strong><a href="mailto:jobs@flare.systems">check us out!</a></strong></p>
+  </div>
+</section>
+
+<section class="footer has-background-dark" id="footer">
+  <div class="content has-text-centered">
+    <a class="has-text-light" href="https://flare.systems">© 2020 Flare Systems Inc.</a>
+  </div>
+</section>

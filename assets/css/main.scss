@@ -7,6 +7,11 @@ $family-sans-serif: 'Open Sans', sans-serif;
 $yellow: #fdcd2f;
 $blue: #193560;
 $grey-darker: #101010;
+$light: #d2d2d2;
+$dark: #292e31;
+
+$fullhd-enabled: false;
+$widescreen-enabled: false;
 
 $primary: $blue;
 $secondary: $yellow;
@@ -18,9 +23,58 @@ $title-size: 3em;
 
 
 .hero {
+  padding-top: 3rem;
   background-image: url("https://flare.systems/wp-content/uploads/2020/01/Web-1920-%E2%80%93-2.png");
+  .fa-github {
+    font-size: 2em;
+  }
 }
 
 .navbar {
   margin-top: 25px;
+}
+
+dl {
+  margin-top: 1.5rem;
+}
+
+dt::after {
+  content: ":";
+}
+
+dt {
+  float: left;
+  clear: left;
+  width: 100px;
+  text-align: right;
+  font-weight: bold;
+  padding-bottom: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+dd {
+  padding-bottom: 0.5rem;
+}
+
+.card.is-spaced {
+  margin-bottom: 3rem;
+}
+
+#our-project {
+  background-color: #f8f8f8;
+}
+
+#our-contributions {
+  background-color: #ececec;
+}
+
+#learn-more {
+  background-color: #f8f8f8;
+  .button {
+    margin-top: 1rem;
+  }
+}
+
+#join-us {
+  background-color: #ececec;
 }
