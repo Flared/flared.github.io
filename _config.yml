@@ -1,0 +1,8 @@
+title: Flare Systems
+email: contact@flare.systems
+description: Flare System's engineering blog.
+
+markdown: kramdown
+theme: minima
+plugins:
+  - jekyll-feed
