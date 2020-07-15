@@ -35,7 +35,7 @@
   url:
     name: github/purple-icq
     href: https://github.com/Flared/purple-icq
-  license: GPL-3.0
+  licence: GPL-3.0
   language: Rust
 
 - name: Huey-SQLAlchemy
