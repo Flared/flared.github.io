@@ -29,6 +29,14 @@
     href: https://github.com/Flared/python-purple
   licence: GPL-3.0
   language: Python
+  
+- name: purple-icq
+  description: ICQ protocol implementation for libpurple.
+  url:
+    name: github/purple-icq
+    href: https://github.com/Flared/purple-icq
+    license: GPL-3.0
+    language: Rust
 
 - name: Huey-SQLAlchemy
   description: Huey Storage implementation using SQLAlchemy.
